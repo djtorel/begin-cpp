@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="begin-cpp" Database="" Version="10.0.0">
+  <VirtualDirectory Name="Section-04">
+    <Project Name="04-03-First-Program" Path="Section-04/04-01-First-Program/section04-01.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section-06">
+    <Project Name="06-06-sizeof" Path="Section-06/06-06-sizeof/section06-sizeof.project" Active="No"/>
+    <Project Name="06-08-Declaring-Using-Constants" Path="Section-06/06-08-Declaring-Using-Constants/section06-declaring-constants.project" Active="No"/>
+    <Project Name="06-09-Section-Challenge" Path="Section-06/06-09-Section-Challenge/06-09-Section-Challenge.project" Active="No"/>
+  </VirtualDirectory>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="04-03-First-Program" ConfigName="Debug"/>
+      <Project Name="06-06-sizeof" ConfigName="Debug"/>
+      <Project Name="06-08-Declaring-Using-Constants" ConfigName="Debug"/>
+      <Project Name="06-09-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="04-03-First-Program" ConfigName="Debug"/>
+      <Project Name="06-06-sizeof" ConfigName="Debug"/>
+      <Project Name="06-08-Declaring-Using-Constants" ConfigName="Debug"/>
+      <Project Name="06-09-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="07-04-Array-Elements" ConfigName="Debug"/>
+      <Project Name="07-07-Vector-Elements" ConfigName="Debug"/>
+      <Project Name="07-08-Section-Challenge" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="04-03-First-Program" ConfigName="Release"/>
+      <Project Name="06-06-sizeof" ConfigName="Release"/>
+      <Project Name="06-08-Declaring-Using-Constants" ConfigName="Release"/>
+      <Project Name="06-09-Section-Challenge" ConfigName="Release"/>
+      <Project Name="04-03-First-Program" ConfigName="Release"/>
+      <Project Name="06-06-sizeof" ConfigName="Release"/>
+      <Project Name="06-08-Declaring-Using-Constants" ConfigName="Release"/>
+      <Project Name="06-09-Section-Challenge" ConfigName="Release"/>
+      <Project Name="07-04-Array-Elements" ConfigName="Release"/>
+      <Project Name="07-07-Vector-Elements" ConfigName="Release"/>
+      <Project Name="07-08-Section-Challenge" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+  <VirtualDirectory Name="Section-07">
+    <Project Name="07-04-Array-Elements" Path="Section-07/07-04-Array-Elements/07-04-Array-Elements.project" Active="No"/>
+    <Project Name="07-07-Vector-Elements" Path="Section-07/07-07-Vector-Elements/07-07-Vector-Elements.project" Active="No"/>
+    <Project Name="07-08-Section-Challenge" Path="Section-07/07-08-Section-Challenge/07-08-Section-Challenge.project" Active="Yes"/>
+  </VirtualDirectory>
+</CodeLite_Workspace>

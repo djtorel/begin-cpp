@@ -16,25 +16,18 @@ int main() {
         "Q - Quit",
     };
 
+    char selection{};
     std::vector<int> numbers{};
-    bool quit = false;
-    while (!quit) {
+    do {
         cout << endl;
         for (auto option : options) {
             cout << option << endl;
         }
 
         cout << "\nEnter your choice: ";
-        char selection{};
         cin >> selection;
 
-        switch (selection) {
-        case 'Q':
-        case 'q':
-            quit = true;
-            break;
-        case 'P':
-        case 'p': {
+        if (selection == 'p' || selection == 'P') {
             if (numbers.size() == 0) {
                 cout << "[] - The list is empty" << endl;
             } else {
@@ -44,33 +37,24 @@ int main() {
                 }
                 cout << "]" << endl;
             }
-            break;
-        }
-        case 'A':
-        case 'a': {
+        } else if (selection == 'a' || selection == 'A') {
             cout << "Enter an integer to add to the list: ";
             int entry{};
             cin >> entry;
             numbers.push_back(entry);
             cout << entry << " added." << endl;
-            break;
-        }
-        case 'M':
-        case 'm': {
+        } else if (selection == 'm' || selection == 'M') {
             if (numbers.size() == 0) {
                 cout << "The list is empty" << endl;
             } else {
-                double sum{0};
+                int sum{0};
                 for (auto number : numbers) {
                     sum += number;
                 }
-                double mean{sum / numbers.size()};
-                cout << "The mean is: " << mean << endl;
+                cout << "The mean is: "
+                     << static_cast<double>(sum) / numbers.size() << endl;
             }
-            break;
-        }
-        case 'S':
-        case 's': {
+        } else if (selection == 's' || selection == 'S') {
             if (numbers.size() == 0) {
                 cout << "The list is empty" << endl;
             } else {
@@ -82,10 +66,7 @@ int main() {
                 }
                 cout << "The smallest number is: " << smallest << endl;
             }
-            break;
-        }
-        case 'L':
-        case 'l': {
+        } else if (selection == 'l' || selection == 'L') {
             if (numbers.size() == 0) {
                 cout << "The list is empty" << endl;
             } else {
@@ -97,10 +78,10 @@ int main() {
                 }
                 cout << "The largest number is: " << largest << endl;
             }
-            break;
-        }
-        default:
+        } else if (selection == 'q' || selection == 'Q') {
+            cout << "Goodbye" << endl;
+        } else {
             cout << "\nUnknown selection, please try again." << endl;
         }
-    }
+    } while (selection != 'q' && selection != 'Q');
 }

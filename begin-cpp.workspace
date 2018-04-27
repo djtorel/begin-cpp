@@ -20,7 +20,10 @@
     <Project Name="09-15-Section-Challenge" Path="Section-09/09-15-Section-Challenge/09-15-Section-Challenge.project" Active="No"/>
   </VirtualDirectory>
   <VirtualDirectory Name="Section-10">
-    <Project Name="10-07-Section-Challenge" Path="Section-10/10-07-Section-Challenge/10-07-Section-Challenge.project" Active="Yes"/>
+    <Project Name="10-07-Section-Challenge" Path="Section-10/10-07-Section-Challenge/10-07-Section-Challenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section-11">
+    <Project Name="11-14-Section-Challenge" Path="Section-11/11-14-Section-Challenge/11-14-Section-Challenge.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
@@ -39,6 +42,7 @@
       <Project Name="08-13-Section-Challenge" ConfigName="Debug"/>
       <Project Name="09-15-Section-Challenge" ConfigName="Debug"/>
       <Project Name="10-07-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="11-14-Section-Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -56,6 +60,7 @@
       <Project Name="08-13-Section-Challenge" ConfigName="Release"/>
       <Project Name="09-15-Section-Challenge" ConfigName="Release"/>
       <Project Name="10-07-Section-Challenge" ConfigName="Release"/>
+      <Project Name="11-14-Section-Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

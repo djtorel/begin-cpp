@@ -26,7 +26,21 @@
     <Project Name="11-14-Section-Challenge" Path="Section-11/11-14-Section-Challenge/11-14-Section-Challenge.project" Active="No"/>
   </VirtualDirectory>
   <VirtualDirectory Name="Section-12">
-    <Project Name="12-17-Section-Challenge" Path="Section-12/12-17-Section-Challenge/12-17-Section-Challenge.project" Active="Yes"/>
+    <Project Name="12-17-Section-Challenge" Path="Section-12/12-17-Section-Challenge/12-17-Section-Challenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section-13">
+    <Project Name="13-04-Declaring-Class" Path="Section-13/13-04-Declaring-Class/13-04-Declaring-Class.project" Active="No"/>
+    <Project Name="13-06-Public-Private" Path="Section-13/13-06-Public-Private/13-06-Public-Private.project" Active="No"/>
+    <Project Name="13-07-Member-Methods" Path="Section-13/13-07-Member-Methods/13-07-Member-Methods.project" Active="No"/>
+    <Project Name="13-08-Constructors-Destructors" Path="Section-13/13-08-Constructors-Destructors/13-08-Constructors-Destructors.project" Active="No"/>
+    <Project Name="13-09-Default-Constructor" Path="Section-13/13-09-Default-Constructor/13-09-Default-Constructor.project" Active="No"/>
+    <Project Name="13-11-Constructor-Initialization-Lists" Path="Section-13/13-11-Constructor-Initialization-Lists/13-11-Constructor-Initialization-Lists.project" Active="No"/>
+    <Project Name="13-12-Delegating-Constructors" Path="Section-13/13-12-Delegating-Constructors/13-12-Delegating-Constructors.project" Active="No"/>
+    <Project Name="13-13-Default-Constructor-Parameter-Values" Path="Section-13/13-13-Default-Constructor-Parameter-Values/13-13-Default-Constructor-Parameter-Values.project" Active="No"/>
+    <Project Name="13-14-Copy-Constructor" Path="Section-13/13-14-Copy-Constructor/13-14-Copy-Constructor.project" Active="No"/>
+    <Project Name="13-17-Move-Constructor" Path="Section-13/13-17-Move-Constructor/13-17-Move-Constructor.project" Active="No"/>
+    <Project Name="13-20-Static-Class-Members" Path="Section-13/13-20-Static-Class-Members/13-20-Static-Class-Members.project" Active="No"/>
+    <Project Name="13-23-Section-Challenge" Path="Section-13/13-23-Section-Challenge/13-23-Section-Challenge.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
@@ -47,6 +61,18 @@
       <Project Name="10-07-Section-Challenge" ConfigName="Debug"/>
       <Project Name="11-14-Section-Challenge" ConfigName="Debug"/>
       <Project Name="12-17-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="13-04-Declaring-Class" ConfigName="Debug"/>
+      <Project Name="13-06-Public-Private" ConfigName="Debug"/>
+      <Project Name="13-07-Member-Methods" ConfigName="Debug"/>
+      <Project Name="13-08-Constructors-Destructors" ConfigName="Debug"/>
+      <Project Name="13-09-Default-Constructor" ConfigName="Debug"/>
+      <Project Name="13-11-Constructor-Initialization-Lists" ConfigName="Debug"/>
+      <Project Name="13-12-Delegating-Constructors" ConfigName="Debug"/>
+      <Project Name="13-13-Default-Constructor-Parameter-Values" ConfigName="Debug"/>
+      <Project Name="13-14-Copy-Constructor" ConfigName="Debug"/>
+      <Project Name="13-17-Move-Constructor" ConfigName="Debug"/>
+      <Project Name="13-20-Static-Class-Members" ConfigName="Debug"/>
+      <Project Name="13-23-Section-Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -66,6 +92,18 @@
       <Project Name="10-07-Section-Challenge" ConfigName="Release"/>
       <Project Name="11-14-Section-Challenge" ConfigName="Release"/>
       <Project Name="12-17-Section-Challenge" ConfigName="Release"/>
+      <Project Name="13-04-Declaring-Class" ConfigName="Release"/>
+      <Project Name="13-06-Public-Private" ConfigName="Release"/>
+      <Project Name="13-07-Member-Methods" ConfigName="Release"/>
+      <Project Name="13-08-Constructors-Destructors" ConfigName="Release"/>
+      <Project Name="13-09-Default-Constructor" ConfigName="Release"/>
+      <Project Name="13-11-Constructor-Initialization-Lists" ConfigName="Release"/>
+      <Project Name="13-12-Delegating-Constructors" ConfigName="Release"/>
+      <Project Name="13-13-Default-Constructor-Parameter-Values" ConfigName="Release"/>
+      <Project Name="13-14-Copy-Constructor" ConfigName="Release"/>
+      <Project Name="13-17-Move-Constructor" ConfigName="Release"/>
+      <Project Name="13-20-Static-Class-Members" ConfigName="Release"/>
+      <Project Name="13-23-Section-Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

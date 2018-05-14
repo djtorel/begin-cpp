@@ -40,7 +40,17 @@
     <Project Name="13-14-Copy-Constructor" Path="Section-13/13-14-Copy-Constructor/13-14-Copy-Constructor.project" Active="No"/>
     <Project Name="13-17-Move-Constructor" Path="Section-13/13-17-Move-Constructor/13-17-Move-Constructor.project" Active="No"/>
     <Project Name="13-20-Static-Class-Members" Path="Section-13/13-20-Static-Class-Members/13-20-Static-Class-Members.project" Active="No"/>
-    <Project Name="13-23-Section-Challenge" Path="Section-13/13-23-Section-Challenge/13-23-Section-Challenge.project" Active="Yes"/>
+    <Project Name="13-23-Section-Challenge" Path="Section-13/13-23-Section-Challenge/13-23-Section-Challenge.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Section-14">
+    <Project Name="14-02-What-Is-Operator-Overloading" Path="Section-14/14-02-What-Is-Operator-Overloading/14-02-What-Is-Operator-Overloading.project" Active="No"/>
+    <Project Name="14-03-Overloading-Assignment-Operator" Path="Section-14/14-03-Overloading-Assignment-Operator/14-03-Overloading-Assignment-Operator.project" Active="No"/>
+    <Project Name="14-04-Overloading-Assignment-Operator-Move" Path="Section-14/14-04-Overloading-Assignment-Operator-Move/14-04-Overloading-Assignment-Operator-Move.project" Active="No"/>
+    <Project Name="14-05-Overloading-Operators-As-Member-Functions" Path="Section-14/14-05-Overloading-Operators-As-Member-Functions/14-05-Overloading-Operators-As-Member-Functions.project" Active="No"/>
+    <Project Name="14-06-Overloading-Operators-As-Global-Functions" Path="Section-14/14-06-Overloading-Operators-As-Global-Functions/14-06-Overloading-Operators-As-Global-Functions.project" Active="No"/>
+    <Project Name="14-07-Overloading-Stream-Operators" Path="Section-14/14-07-Overloading-Stream-Operators/14-07-Overloading-Stream-Operators.project" Active="No"/>
+    <Project Name="14-08-Section-Challenge" Path="Section-14/14-08-Section-Challenge/14-08-Section-Challenge.project" Active="No"/>
+    <Project Name="14-08-Section-Challenge-p2" Path="Section-14/14-08-Section-Challenge-p2/14-08-Section-Challenge-p2.project" Active="Yes"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
@@ -73,6 +83,14 @@
       <Project Name="13-17-Move-Constructor" ConfigName="Debug"/>
       <Project Name="13-20-Static-Class-Members" ConfigName="Debug"/>
       <Project Name="13-23-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="14-02-What-Is-Operator-Overloading" ConfigName="Debug"/>
+      <Project Name="14-03-Overloading-Assignment-Operator" ConfigName="Debug"/>
+      <Project Name="14-04-Overloading-Assignment-Operator-Move" ConfigName="Debug"/>
+      <Project Name="14-05-Overloading-Operators-As-Member-Functions" ConfigName="Debug"/>
+      <Project Name="14-06-Overloading-Operators-As-Global-Functions" ConfigName="Debug"/>
+      <Project Name="14-07-Overloading-Stream-Operators" ConfigName="Debug"/>
+      <Project Name="14-08-Section-Challenge" ConfigName="Debug"/>
+      <Project Name="14-08-Section-Challenge-p2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -104,6 +122,14 @@
       <Project Name="13-17-Move-Constructor" ConfigName="Release"/>
       <Project Name="13-20-Static-Class-Members" ConfigName="Release"/>
       <Project Name="13-23-Section-Challenge" ConfigName="Release"/>
+      <Project Name="14-02-What-Is-Operator-Overloading" ConfigName="Release"/>
+      <Project Name="14-03-Overloading-Assignment-Operator" ConfigName="Release"/>
+      <Project Name="14-04-Overloading-Assignment-Operator-Move" ConfigName="Release"/>
+      <Project Name="14-05-Overloading-Operators-As-Member-Functions" ConfigName="Release"/>
+      <Project Name="14-06-Overloading-Operators-As-Global-Functions" ConfigName="Release"/>
+      <Project Name="14-07-Overloading-Stream-Operators" ConfigName="Release"/>
+      <Project Name="14-08-Section-Challenge" ConfigName="Release"/>
+      <Project Name="14-08-Section-Challenge-p2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
